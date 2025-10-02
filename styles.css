@@ -1,0 +1,14 @@
+/* Custom Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+.ebook-mockup {
+  transition: all 0.5s ease-in-out;
+  box-shadow: 10px 10px 0px 0px var(--tw-colors-accent-orange);
+}
+
+.ebook-mockup:hover {
+  transform: scale(1.05) rotate(2deg);
+  box-shadow: 15px 15px 0px 0px var(--tw-colors-accent-orange);
+}
